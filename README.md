@@ -8,6 +8,5 @@
 Для работы с кодом требуется наличие:
 - Java 11
 - JavaFX
-- Maven
 ## Демонстрация проекта:
 ![ОКНО ПРОГРАММЫ](https://user-images.githubusercontent.com/112715848/209112866-110a164f-40a4-4cda-bb1a-9aae795a2e5a.png)
