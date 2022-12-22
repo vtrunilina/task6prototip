@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.task66.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <ListView fx:id="listview" prefHeight="76.0" prefWidth="200.0" />
+   <Canvas fx:id="canvas" height="280.0" onMouseClicked="#onMouseClicked" width="302.0" />
+
+  <Label fx:id="welcomeText" />
+   <ColorPicker fx:id="colorPicer" onAction="#changeColor" />
+  <Button onAction="#buttonClear" text="Clear" />
+</VBox>
